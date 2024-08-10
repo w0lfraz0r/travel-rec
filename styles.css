@@ -1,0 +1,143 @@
+:root{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/178/417/original/travel-and-tourism-background-with-famous-world-landmarks-in-3d-realistic-and-sketch-drawing-elements-vector.jpg");
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+    display: flex;
+ 
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,56,255,1) 100%);
+  
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none; 
+}
+
+ul{
+    list-style:none;
+    display: flex;
+
+    justify-content: space-around;
+    flex-grow: 0.4;
+    
+}
+li{
+  
+    justify-content: space-between;
+    
+}
+
+a{
+    display: flex;
+    align-items: center;
+}
+
+#header-stuff{
+    display: flex;
+    align-items: center;
+}
+
+.Hero{
+    margin-top: 150px;
+    margin-left: 80px;
+
+    width: 45%;
+}
+
+.Hero div{
+  
+    margin: 20px 0 20px;
+}
+
+#head-hero{
+    font-size: 4rem;
+}
+
+#head-content{
+    font-size: 20px;
+    width:80% ;
+}
+#book{
+    font-size: 1.2rem;
+    height: 70px;
+    width:200px;
+    border-radius: 30px;
+}
+
+.about{ 
+  
+    margin-top: 150px;
+    margin: 80px;
+  
+}
+#about-hero{
+ 
+    font-size: 4rem;
+}
+#about-content{
+
+}
+#about-team{
+    padding: 0px 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.about div{
+    margin: 30px 0 30px;
+}
+.key-peep{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border: 10px solid teal;
+    border-radius: 15px;
+    height:50px;
+    width: 200px;
+}
+
+
+.contact{
+    margin-top: 100px;
+display: flex;
+
+justify-content: space-around;
+align-items: center;
+}
+
+#contact-hero{
+
+    font-size: 5rem;
+}
+
+form{
+    height: 300px;
+    width: 500px;
+ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#header-stuff{
+
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#header-stuff button{
+ background-color: teal;
+ color: white;
+ font-weight: bolder;
+    border-radius: 5px;
+   
+}
